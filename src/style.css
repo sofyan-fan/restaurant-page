@@ -1,3 +1,58 @@
 body {
-  background-color: purple;
+  background-color: black;
+  color: white;
+  background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjY2LWtuLWQxLTAwMWNfMS5qcGc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover{
+  color: gold;
+}
+
+#content{
+  display: flex;
+}
+
+#content>div{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  border: solid 2px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
