@@ -19,7 +19,8 @@ header {
   justify-items: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   font-family: "Ultra", serif;
   font-weight: 400;
@@ -27,9 +28,9 @@ h1, h2 {
   font-size: 75px;
 }
 
-h2{
-font-size: 50px;
-padding: 0px 200px;
+h2 {
+  font-size: 50px;
+  padding: 0px 200px;
 }
 
 
@@ -60,14 +61,14 @@ button:hover {
   justify-content: start;
   align-items: start;
   flex: 1;
-  
+
 }
 
 
 .content>div {
   width: 50%;
   height: 100%;
-  
+
 }
 
 .content-left {
@@ -78,25 +79,25 @@ button:hover {
   padding-right: 20px;
 }
 
-.content-left-menu{
+.content-left-menu {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
 
-.item-container{
+.item-container {
   display: flex;
   flex-direction: row;
   gap: 200px;
   padding-left: 50px;
 }
 
-.item-price{
+.item-price {
   display: flex;
   align-items: center;
 }
 
-.item-name-des{
+.item-name-des {
   width: 400px;
 }
 
@@ -114,22 +115,52 @@ footer {
   margin-right: 30px;
 }
 
-.introduction{
+.introduction {
   text-align: center;
   font-size: 1.5rem;
 }
 
-.form-container{
+.form-container {
   display: flex;
   padding-left: 200px;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 12px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 
 
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: solid 1px;
+  border-color: white;
+  height: 150px;
+  background-color: white;
+  border-radius: 3px;
+
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+
+.contact-content{
+  color: black;
+}

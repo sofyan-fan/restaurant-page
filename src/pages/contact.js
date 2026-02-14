@@ -1,5 +1,5 @@
 import {
-  reservationBtn,
+  contactBtn,
   contentLeft
 
 } from "./landing";

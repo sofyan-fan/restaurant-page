@@ -12,10 +12,10 @@ import {
 import {
   menu
 } from "./pages/menu.js";
-import { reservationEventHandler } from "./pages/contact.js";
+import { reservationEventHandler } from "./pages/reservation.js";
 
 
-renderLandingPage();
+//renderLandingPage();
 
 menuEventHandler();
 
