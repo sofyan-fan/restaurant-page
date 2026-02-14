@@ -1,4 +1,4 @@
-/*const slogan = document.createElement("h2");
+const slogan = document.createElement("h2");
 const introduction = document.createElement("p");
 
 introduction.classList.add("introduction")
@@ -17,5 +17,5 @@ export const renderLandingPage = function renderLP() {
 }
 export const menuBtn = document.querySelector(".btn-menu");
 export const reservationBtn = document.querySelector(".btn-reservation");
-export const contactBtn = document.querySelector(".btn-contact");*/
+export const contactBtn = document.querySelector(".btn-contact");
 

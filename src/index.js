@@ -14,12 +14,20 @@ import {
 } from "./pages/menu.js";
 import { reservationEventHandler } from "./pages/reservation.js";
 
+import { contactEventHandler } from "./pages/contact.js";
 
-//renderLandingPage();
+
+
+
+renderLandingPage();
 
 menuEventHandler();
 
 reservationEventHandler();
+
+contactEventHandler();
+
+
 
 
 

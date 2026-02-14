@@ -1,45 +1,21 @@
 import {
+  contentLeft,
   contactBtn,
-  contentLeft
-
 } from "./landing";
 
+function renderContact() {
+  contentLeft.innerHTML = `
+        <p>Phone: (202) 555‑0147 </p>
+      <p>Location: Sirloin Springs, Montana</p>
+      <p>Instagram: @ssteaksandburgers </p>
+      <p>Tiktok: @ssteaksburgers </p>
+  `
+}
 
+export const contactEventHandler = function contactEventHandler() {
+  contactBtn.addEventListener("click", () => {
 
-const formContainer = document.createElement("div");
-formContainer.classList.add("form-container");
-
-
-
-formContainer.innerHTML = ` 
-<form class="form "action="">
-  <label for="fullname">Full Name:</label>
-  <input type="text" id="fullname" name="fullname" required>
-  <label for="phone">Phone number:</label>
-  <input type="tel"
-  id="phone"
-  name="phone"
-  required>
-  <label for="email">Email address</label>
-  <input type="email">
-  <label for="date">Date:</label>
-  <input type="date" id="date" name="date" required>
-  <label for="time">Time:</label>
-  <input type="time" id="time" name="time"required>
-  <label for="numberofguests">Number of guests:</label>
-  <input type="number" id="numberofguests" name="numberofguests required">
-  <input type="submit">
-</form>
-`
-
-
-export const reservationEventHandler = function reservationEventHandler() {
-  reservationBtn.addEventListener("click", () => {
-   
-    
-      contentLeft.innerHTML = ""
-      contentLeft.appendChild(formContainer);
- 
- 
-
-})};
+    contentLeft.className = "contact-container";
+    renderContact()
+  })
+};
